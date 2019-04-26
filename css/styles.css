@@ -347,3 +347,59 @@
   [hidden] {
     display: none;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+/* =============== Accent Colour: 70bdd0 =================*/
+
+  body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      font-family: 'Pragati Narrow', sans-serif;
+  }
+
+/* Typography
+==================================================== */
+
+  h1{
+      font-family:'Old Standard TT', cursive;
+  }
+
+.title h1{
+    font-size: 5em;
+    color: black;
+    border: 3px solid black;
+    padding: 30px;
+    background:rgba(255,255,255, 0.5);
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-container{
+  background-image: url("../img/aego-hero1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:-30%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px;
+}
+
